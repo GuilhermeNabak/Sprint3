@@ -78,8 +78,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Opções de imagens de perfil disponíveis (URLs)
         const profileImages = [
             'img1.jpeg',
-            'profile2.png',
-            'profile3.png'
+            'img2.png',
+            'img3.png'
         ];
 
         profileOptionsContainer.innerHTML = '';
