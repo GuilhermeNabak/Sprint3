@@ -60,12 +60,13 @@ main {
 
 .favoritos {
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding-top: 20px;
 }
 
 p {
-    margin-left: 20px; 
-    margin-bottom: 180px; 
+    padding-top: 10px;
+    margin: 10px 20px 0 10px;
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -93,7 +94,7 @@ button#changeProfileButton {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 4px;
-    margin-top: 10px; /* Espaço acima do botão */
+    margin-top: 10px;
 }
 
 button#changeProfileButton:hover {
@@ -208,4 +209,10 @@ table tr:hover {
 
 .profile-option:hover {
     transform: scale(1.1);
+}
+
+.genre-label {
+    font-size: 14px; 
+    margin-top: 5px; 
+    color: #CCCCCC; 
 }
